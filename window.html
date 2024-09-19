@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Console e Windows</title>
+</head>
+
+<body>
+
+  <h1>Olá mundo!</h1>
+  <p>Vencemos o início.</p>
+
+  <script>
+    window.alert("Bem vindo ao site!");
+
+    let nome = window.prompt("Qual é o seu nome?");
+
+    console.log("Nome informado:" + nome);
+
+    window.open("https://www.google.com", "_blank");
+
+    window.setTimeout(function () {
+      console.log("Executando após 2 segundos!");
+    }, 2000000000000);
+
+
+    window.confirm("Estão entendendo?");
+
+
+    window.open("https://www.google.com", "_blank");
+
+    window.setInterval(function () {
+      window.clearInterval(intervalID);
+    });
+
+
+    window.scroll(x, y);
+
+    window.history.back();
+
+    window.history.forward();
+
+    window.history.go(2);
+
+
+    window.location.href = "https://www.wikipedia.org";
+  </script>
+</body>
+
+</html>
